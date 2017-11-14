@@ -7,8 +7,6 @@ html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background: #fff;
-  color: #666;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility
@@ -19,39 +17,44 @@ html {
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: white;
+  background-color: #0c0c0c;
+  color: white;
 }
 
 /* On utilise le style de Udacity sur la class card de UIkit */
 
 .uk-card {
-  background: #fff;
-  box-shadow: 0px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  background: transparent;
+  border: 1px solid white;
 }
 
-.uk-card:hover {
-  box-shadow: 0px 2px 15px 0px rgba(46, 61, 73, 0.2);
-  transition: all 0.3s ease;
+.uk-card-default {
+  color: white;
+}
+
+a {
+  color: white !important;
 }
 
 /* On modifie légèrement les h1 et h3 */
 
 h1 {
   font-weight: 700;
-  color: black !important;
+  color: white !important;
   font-size: 1.9rem !important;
 }
 
 h3 {
   font-weight: 700;
   margin-top: 0em;
+  color: white !important;
 }
 
 h6 {
   text-transform: lowercase;
   font-variant: small-caps;
   letter-spacing: -0.05rem;
-  color: #ccc;
+  color: white !important;
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 0.75em;
@@ -63,18 +66,14 @@ h6 {
   text-align: center;
   font-size: 1.85rem;
   font-weight: 200;
-  color: #333;
+  color: white !important;
 }
 
 h5 {
   margin-top: 0px;
   font-variant: small-caps;
-  color: #333;
+  color: white;
   letter-spacing: -0.06rem;
   font-weight: 400;
   font-size: 0.75rem;
-}
-
-.red {
-  color: red;
 }
