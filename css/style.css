@@ -1,0 +1,81 @@
+/* On corrige le HTML de base */
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #fff;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility
+}
+
+/* On met un padding-top au body */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: white;
+}
+
+/* On utilise le style de Udacity sur la class card de UIkit */
+
+.uk-card {
+  background: #fff;
+  box-shadow: 0px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 0.375rem;
+}
+
+.uk-card:hover {
+  box-shadow: 0px 2px 15px 0px rgba(46, 61, 73, 0.2);
+  transition: all 0.3s ease;
+}
+
+.uk-card-media-top img {
+  border-radius: 0.375rem 0.375rem 0 0;
+}
+
+/* On modifie légèrement les h1 et h3 */
+
+h1 {
+  font-weight: 700;
+  color: black !important;
+  font-size: 1.9rem !important;
+}
+
+h3 {
+  font-weight: 700;
+  margin-top: 0em;
+}
+
+h6 {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: -0.05rem;
+  color: #ccc;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+/* On stylise les infos */
+
+.infos {
+  text-align: center;
+  font-size: 1.85rem;
+  font-weight: 200;
+  color: #333;
+}
+
+h5 {
+  margin-top: 0px;
+  font-variant: small-caps;
+  color: #333;
+  letter-spacing: -0.06rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
