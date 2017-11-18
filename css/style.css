@@ -79,3 +79,9 @@ h5 {
 .red {
   color: red;
 }
+
+/* On change l'underlining du a */
+
+a:hover {
+  text-decoration: none;
+}
