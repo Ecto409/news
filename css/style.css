@@ -29,6 +29,11 @@ body {
   box-shadow: 0px 5px 25px 0px rgba(46, 61, 73, 0.2);
 }
 
+.uk-card-body{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
 .uk-card:hover {
   box-shadow: 0px 2px 15px 0px rgba(46, 61, 73, 0.2);
   transition: all 0.3s ease;
